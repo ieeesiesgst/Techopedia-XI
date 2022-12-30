@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- custom -->
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/main.js"></script>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;family=Space+Grotesk:wght@700&amp;display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+  <!-- JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.png">
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+
+  <title>TechopediaX | IEEE SIESGST</title>
+</head>
+<body>
+  <nav class="navbar homeBg navbar-expand-lg fixed-top " id="mynav">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/logo/IEEE SIESGST_white.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto pt-3 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#timeline">Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#questions">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sponsors">Sponsors</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION  -->
+
+  <section class="Home" id="home">
+    <div class="hero" >
+      <div class="header container">
+        <h1 class="primary-title">
+          <img src="./assets/main/TechoTitle.png" class="techopedia-title mb-0">
+        </h1>
+        <p class="text-center about-text text-white pb-5">
+          Techopedia is the annual technical fest organized by the IEEE SIESGST student branch for the involvement of the student members as well as the development of students under the guise of fun-filled and intriguing games and events. This year Techopedia X is planned to be conducted, despite the pandemic situation, as the organizing team strives to achieve a grand festival virtually for its student members’ benefit.          </p>
+      </div>
+    </div>
+
+    <div class="countdown" id="demo">
+      <div id="timer" class=" d-flex align-items-center justify-content-center mt-lg-3">
+        <div id="days" class="align-items-center flex-column d-flex justify-content-center">0<span>Days</span></div>
+        <div id="hours" class="align-items-center flex-column d-flex justify-content-center">0<span>Hours</span></div>
+        <div id="minutes" class="align-items-center flex-column d-flex justify-content-center">0<span>Minutes</span></div>
+        <div id="seconds" class="align-items-center flex-column d-flex justify-content-center">0<span>Seconds</span></div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="campus" id="events">
+    <div class="events" id="events">
+      <h3 class="secondary-title text-center pt-2 pb-2">OUR EVENTS.</h3>
+      <div>
+        
+        <div class="row  squabble  d-flex justify-content-center align-items-center pb-md-1 pb-lg-0">
+          <div class="campus-col-events">
+            <img src="assets/main/inquisitive box.jpg" >
+            <div class="layer">
+                <h3>Squabble</h3>
+            </div>
+          </div>
+          <div class="campus-col-events">
+            <img src="assets/main/inquisitive box.jpg" >
+            <div class="layer">
+                <h3>Inquisitive</h3>
+            </div>
+          </div>
+          <div class="campus-col-events">
+            <img src="assets/main/inquisitive box.jpg" >
+            <div class="layer">
+                <h3>Mystification</h3>
+            </div>
+          </div>
+          <div class="campus-col-events">
+            <img src="assets/main/inquisitive box.jpg" >
+            <div class="layer">
+                <h3>Cold War</h3>
+            </div>
+          </div>
+          
+          
+        
+        
+     
+    </div>
+    <br>
+    <br>
+    <h1>Last Year Events</h1>
+    <p>Welcome to the magical world</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="assets/main/inquisitive box.jpg" >
+            <div class="layer">
+                <h3>Inquisitive</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="assets/main/Labyrinth box.jpg" >
+            <div class="layer">
+                <h3>Labyrinth</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="assets/main/nexus box.jpg" >
+            <div class="layer">
+                <h3>Nexus</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="assets/main/squabble box.jpg">
+            <div class="layer">
+                <h3>Squabble</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="assets/main/TECHNOPRENEUR box.jpg">
+            <div class="layer">
+                <h3>Technopreneur</h3>
+            </div>
+        </div>
+    </div>
+
+  </section>
+
+  <div class="timeline-conatiner" id="timeline">
+    <div class="timeline">
+        <ul>
+            <h1 data-aos="fade-left">EVENT TIMELINE</h1>
+            <li>
+                <div class="timeline-content" data-aos="fade-right">
+                    <span id="date">15th November, 2022</span>
+                <h1>REGISTRATION STARTS</h1>
+                <p>Registration for the various events starts</p>
+            </div>
+            </li>
+            <li>
+                <div class="timeline-content" data-aos="fade-left">
+                    <span id="date">30th November, 2022</span>
+                <h1>REGISTRATION ENDS</h1>
+                <p>Registration for the various events ends</p>
+            </div>
+            </li>
+            <li>
+                <div class="timeline-content" data-aos="fade-right">
+                    <span id="date">05th December, 2022</span>
+                <h1>INAUGURATION CEREMONY</h1>
+                <p>Inauguration ceremony starts</p>
+            </div>
+            </li>
+            <li>
+                <div class="timeline-content" data-aos="fade-left">
+                    <span id="date">20th December, 2022</span>
+                <h1>CLOSING</h1>
+                <p>Closing of the various events</p>
+            </div>
+            </li>
+        </ul>
+    </div>
+  </div>
+  <br><br>
+    <p id="title" class="faq">
+          FREQUENTLY ASKED QUESTIONS ?
+    </p>
+    <div id="container">
+   
+    <div class="faq" id="questions" >
+   
+        <div class="block" id="q1">
+
+           <details class="details">
+            <summary >What is Techopedia?</summary>
+            <p class="a">Techopedia is the annual technical fest of IEEE SIES GST. This year we are celebrating its tenth edition. </p>
+           </details>
+        </div>
+   
+        <div class="block" id="q2">
+           <details class="details">
+            <summary >What does the theme 'Epoch' imply?</summary>
+            <p class="a"> To celebrate the glory that Techopedia has achieved over a decade we derived that nothing is grander than the concept of time. For Techopedia 10.0 we are looking to cruise through time and create a perceptive experience for the senses. Maneuvering through the past over the present and to the future is our endeavour.  </p>
+           </details>
+        </div>
+   
+        <div class="block" id="q3">
+
+           <details class="details">
+            <summary >What are benefits of participating in the events?</summary>
+            <p class="a"> By simply participating you increase the likelihood of winning exciting cash prizes, coupons, goodies and national-level certificates.  </p>
+           </details>
+        </div>
+   
+        <div class="block" id="q4">
+           <details class="details">
+            <summary >What is the registration fee?</summary>
+            <p class="a">There is absolutely no registration fee. Your entry is absolutely free! </p>
+           </details>
+        </div>
+   
+        <div class="block" id="q5">
+           <details class="details">
+            <summary >How will I stay up-to-date with the event timeline?</summary>
+            <p class="a"> You can keep an eye out for updates on our social medias’ linked below and join our WhatsApp group after registration to keep a track of the happenings  </p>
+           </details>
+        </div>
+   
+        <div class="block" id="q6">
+
+           <details class="details">
+            <summary >Is On-day registration open?</summary>
+            <p class="a"> On-day registrations are unavailable! So register before the closing date for incredible fun through Techopedia X.   </p>
+           </details>
+        </div>
+
+   
+        </div> 
+        <img src="assets/main/faq 1.jpg" alt="MOST POPULAR QUESTIONS OF TECHOPEDIA 11" class="img1">
+        </div>
+        
+        <br><br>
+
+        <div id="sponsors">
+                  <span class="heading" text-center pt-2 pb-2>OUR SPONSORS</span>
+            <div class="row">
+                  <div class="column">
+                      <a href="https://www.topcoder.com/">
+                          <img src="https://techopedia.ieeesiesgst.in/Image/Topcoder%20Logo%20White.png" class="sponsor-image" id="topper" al data-aos="flip-left" data-aos-duration="1000" height="35px" style= "object-fit: contain">
+                      </a>
+                      <p>Title Sponsor</p>
+                  </div>
+                  <div class="column">
+                      <a href="https://ieeebombay.org/">
+                          <img src=" https://techopedia.ieeesiesgst.in/Image/IEEEBombay.png" class="sponsor-image" alt="..." data-aos="flip-left" id="tech"  height="65px"  data-aos-duration="1000">
+                      </a>
+                      <p class="sponsor-title">Technical Sponsor</p>
+                  </div>
+            </div>
+
+
+            <div class="r">
+              <div class="c">
+                  <!-- this one is for geeks of greek -->
+                  <a href="https://www.geeksforgeeks.org/"><img src="https://techopedia.ieeesiesgst.in/Image/geeksforgeeks.png " class="sponsor-image"  height="200px" alt="..." data-aos="flip-left"     data-aos-duration="1000"></a>
+              </div>
+              <div class="c">
+                  <a href="https://www.mycaptain.in/"><img src="https://techopedia.ieeesiesgst.in/Image/mycaptain.png" class="sponsor-image" alt="..." height="180px"  data-aos="flip-left" data-aos-duration="1000" id="geeks"></a>
+
+              </div>
+              <div class="c">
+                  <a href="https://www.infigonfutures.com/"><img src="https://techopedia.ieeesiesgst.in/Image/infigon.png" class="sponsor-image"  height="160px" alt="..." data-aos="flip-left" data-aos-duration="1000" id="infigon"></a>
+              </div>
+              
+            </div>
+
+            <div class="rows">
+                  <div class="columns">
+                      <a href="http://www.proalley.com/?utm_source=IEEE&utm_medium=event&utm_campaign=sponsorship"><img src="https://techopedia.ieeesiesgst.in/Image/Dark%20Background%20logo%20small.png" class="sponsor-image" al data-aos="flip-left" data-aos-duration="1000"  height="90px"></a>
+                  </div>
+                  <div class="columns">
+                      <a href="https://www.taskade.com/"><img src="https://techopedia.ieeesiesgst.in/Image/sponsorIMG.jpeg" class="sponsor-image" height="98px"  al data-aos="flip-left" data-aos-duration="1000"></a>
+                  </div>
+                  <div class="columns">
+                      <a href="https://techanalogy.org/"><img src="https://techopedia.ieeesiesgst.in/Image/techanalogylogoextended%20white.png" class="sponsor-image"   height="80px" width="280px"  al data-aos="flip-left" data-aos-duration="1000"></a>
+                  </div>
+            </div>
+            <div class="shrey" >
+                  <div class="mish">
+                      <a href="https://teamfullstack.tech/"><img src="https://techopedia.ieeesiesgst.in/Image/logo_with_text%20(2).png" class="sponsor-image" al data-aos="flip-left"     height="65px" width="292px"  id="fullstack"   data-aos-duration="1000"></a>
+                      <p>Education partner</p>
+                  </div>
+                  
+                  <div class="mish">
+                      <a href="https://streamyard.com/"><img src="https://techopedia.ieeesiesgst.in/Image/streamYard.png" class="sponsor-image" alt="..." data-aos="flip-left" data-aos-duration="1000" height="85px" id="yard"></a>
+                      <p>official streaming partner</p>
+                  </div>
+                  
+                      
+                  
+              </div>
+
+              <div class="h">
+
+                  <div class="v">
+                      <a href="https://www.attiitude.com/"><img src="https://techopedia.ieeesiesgst.in/Image/attitude.png" class="sponsor-image" alt="..." data-aos="flip-left" data-aos-duration="1000" height="90px" id="attitude"></a>
+                      <p>apparel partner </p>
+                  </div>
+                
+                  <div class="v">
+                      <a href="https://www.myaugeo.com/"><img src="https://techopedia.ieeesiesgst.in/Image/augeo.png" class="sponsor-image" alt="..." data-aos="flip-left" data-aos-duration="1000"  height="90px" id="augeo"  style="object-fit: contain;" ></a>
+                      <p>Audio learning partner</p>
+                  </div>
+              
+            </div>
+            <div>
+              <P id="em" >previosly sponsor</P>
+            </div>
+            <div class="horizon">
+                  
+                  <div class="vertical">
+                      <a href="https://ieeebombay.org/"><img src="https://techopedia.ieeesiesgst.in/Image/IEEEBombay.png" class="ieee"  height="100px"   alt="..." data-aos="flip-left" data-aos-duration="1000" ></a>
+                  </div>
+                  <div class="vertical">
+                  <a href="https://netcredential.com/"><img src="https://techopedia.ieeesiesgst.in/Image/NetCredential.png" class="sponsor-image"  height="160px"  alt="..." data-aos="flip-left" data-aos-duration="1000" id="net" ></a>
+                  </div>
+                  <div class="vertical">
+                  <a href="https://www.outscal.com/"><img src="https://techopedia.ieeesiesgst.in/Image/image3.png" class="sponsor-image" height="116px" al data-aos="flip-left" data-aos-duration="1000"></a>
+                  </div>
+              </div>
+
+                  <!-- email part -->
+              <section>
+                  <div>
+                      want to sponsor us ? Drop a mail at
+                      <span><a href="mailto: ieee@siesgst.ac.in">
+                          ieee@siesgst.ac.in
+                        </a>
+                      </span>
+                  </div>
+              </section>
+
+              <!-- from here the footer part starts -->
+
+              <div>
+                  <div>
+                      <div>
+                          <h3>EXPLORE</h3>
+                          <a href="#home" data-wow-delay="0.2s">Home</a>
+                          <a href="#events" data-wow-delay="0.2s">Events</a>
+                          <a href="mailto: ieee@siesgst.ac.in" data-wow-delay="0.2s">Contact</a>
+                      </div>
+                  </div>
+                  <div>
+                      <h3 class="follow-us">Follow us at.</h3>
+
+                        <ul class="social-links">
+                          <li id="insta" class="wow fadeInUp" data-wow-delay="0.6s"><a target="_blank"
+                              href="https://www.instagram.com/ieeesiesgst/?hl=en"><img src="https://techopedia.ieeesiesgst.in/Image/InstagramLogo%20(1).png"
+                                alt=""></a>
+                          </li>
+                          <li class="wow fadeInUp" data-wow-delay="1s"><a target="_blank"
+                              href="https://www.linkedin.com/company/ieee-gst"><img src="https://techopedia.ieeesiesgst.in/Image/LinkedinLogo.png" alt=""></a></li>
+
+                          <li class="wow fadeInUp" data-wow-delay="0.8s"><a target="_blank"
+                              href="https://twitter.com/_ieeesiesgst?s=09"><img src="https://techopedia.ieeesiesgst.in/Image/twitter%20logo.png" alt=""></li>
+                          <li class="wow fadeInUp" data-wow-delay="1s"><a target="_blank"
+                              href="https://www.youtube.com/c/IEEESIESGST"><img src="https://techopedia.ieeesiesgst.in/Image/youtube%20logo.png" alt=""></a></li>
+                          <li class="wow fadeInUp" data-wow-delay="0.4s"><a target="_blank"
+                              href="https://www.facebook.com/groups/714385779076148/?ref=share"><img
+                                src="https://techopedia.ieeesiesgst.in/Image/FacebookLogo.png" alt=""></a></li>
+                          <li class="wow fadeInUp" data-wow-delay="1s"><a target="_blank"
+                              href="https://open.spotify.com/show/08snSfTbCS9EcxWTDIJYuV?si=s5eliMbwTPeOXAC2ZG8MDg&utm_source=copy-link"><img
+                                src="https://techopedia.ieeesiesgst.in/Image/SpotifyLogo.png" alt=""></a></li>
+                          <li class="wow fadeInUp" data-wow-delay="1s"><a target="_blank"
+                              href="https://github.com/ieeesiesgst"><img src="https://techopedia.ieeesiesgst.in/Image/github%20logo.png" alt=""></a></li>
+                        </ul>
+
+                  </div>
+                  <div>
+                      <h3 class="Reach-us">Reach us at.</h3>
+                      <h4 data-wow-delay="0.2s">
+                          <span><a href="mailto: ieee@siesgst.ac.in">ieee@siesgst.ac.in</a></span>
+                      </h4>
+                      <div class="official-website"><a href="https://ieeesiesgst.in/" target="_blank" data-wow-delay="0.2s"> Visit our official site.</a> </div>
+                  </div>
+                  <div>
+                      <h3 class="copyright"> &copy; 2021 - 2022</h3>
+                  </div>
+              </div>
+        </div>
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
+</body>
+</html>
