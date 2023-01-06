@@ -834,7 +834,6 @@ summary {
   font-weight: lighter;
   /* color: #fff; */
   font-size: 18px;
-  padding-left: 20px;
 }
 
 #media,
@@ -865,7 +864,7 @@ summary {
     margin-left: 5px;
   }
 }
-
+/* Foooter  */
 .explore {
   margin-bottom: 30px;
 }
@@ -887,12 +886,12 @@ summary {
   display: flex;
   text-align: center;
   align-items: center;
+  justify-content: center;
 }
 .social-links li,
 .social-links li a {
   list-style: none;
-  text-align: center;
-  align-items: center;
+  margin-left: 15px;
 }
 .follow-us ul {
   width: 110%;
@@ -902,7 +901,7 @@ summary {
 #explore h3,
 .follow-us,
 .Reach-us {
-  text-align: center;
+  text-align: right;
   color: #c1cae8;
   margin-bottom: 30px;
   font-size: 20px;
@@ -1004,7 +1003,7 @@ summary {
     margin-right: 10px;
   }
 }
-
+/* foooter end */
 /*timeline*/
 
 
@@ -3640,16 +3639,6 @@ summary {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-.container {
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 100px 0;
-  
-}
 .timeline {
   width: 80%;
   height: auto;
