@@ -455,7 +455,6 @@
     width: 45px;
     height: 45px;
     margin-top: 3rem;
-    margin-top: 3rem;
     font-size: 15px;
     font-weight: 700;
   }
@@ -563,6 +562,7 @@
     margin: auto;
     padding-top: 10px;
   }
+  
 }
 @media (max-width: 441px) {
   .social-links li {
@@ -589,6 +589,10 @@
   .even {
     margin-left: 0 !important;
   }
+  .about-bg{
+    top: -10rem;
+    height: 24rem;
+ }
 }
 @media (max-width: 320px) {
   .social-links {
@@ -596,5 +600,9 @@
   }
   .social-links li {
     margin-right: 10px;
+  }
+  .about-bg{
+     top:-10rem;
+     height: 24rem;
   }
 }

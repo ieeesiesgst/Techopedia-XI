@@ -262,37 +262,22 @@ nav #brand a:hover {
   height: 90vh;
 }
 
-.about-bg {
-  
-  
+.about-cont {
   font-weight: 400 !important;
   color: #c1cae8a2;
-  background: linear-gradient(270deg, rgba(37, 218, 170, 0.2) 0%, rgba(16, 18, 18, 0.2) 100%), url(jr-korpa-9XngoIpxcEo-unsplash.jpg);
-  
-
-  
-  
-  
-  
-  
-  
-  
-  height: 300px;
+  top:-1rem;
+  text-align: center;
+  position: relative;
 }
 .about-text {
   font-family: "Inter", sans-serif;
-  font-size:16px;
-  text-align:justify;
-  vertical-align:text-middle;
-  position:relative;
-  
-  
-  
+  font-size: 20px;
+  padding-left: 10%;
+  text-align: center;
+  vertical-align: text-middle;
+  position: relative;
+  padding-right: 10%;
 }
-.about-img {
-
-}
-
 .timer {
   font-family: "Space Grotesk", sans-serif;
   font-style: normal;
@@ -332,6 +317,7 @@ nav #brand a:hover {
 .campus {
   width: 80%;
   margin: auto;
+  margin-top: 12rem !important;
   text-align: center;
   padding-top: 50px;
 }
@@ -709,9 +695,6 @@ summary {
 #ieee {
   margin-top: 90px;
 }
-#net {
-  margin-top: -32px;
-}
 
 #sponsors {
   background-color: #101212;
@@ -834,6 +817,7 @@ summary {
   font-weight: lighter;
   /* color: #fff; */
   font-size: 18px;
+  padding-left: 20px;
 }
 
 #media,
@@ -864,7 +848,7 @@ summary {
     margin-left: 5px;
   }
 }
-/* Foooter  */
+
 .explore {
   margin-bottom: 30px;
 }
@@ -873,6 +857,7 @@ summary {
   color: #c1cae8;
   font-size: 20px;
 }
+
 #explore h4 {
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -885,13 +870,14 @@ summary {
   margin-top: 30px;
   display: flex;
   text-align: center;
+  margin-left: 10%;
   align-items: center;
-  justify-content: center;
 }
 .social-links li,
 .social-links li a {
   list-style: none;
-  margin-left: 15px;
+  text-align: center;
+  align-items: center;
 }
 .follow-us ul {
   width: 110%;
@@ -899,9 +885,13 @@ summary {
 }
 
 #explore h3,
-.follow-us,
+.follow-us{
+  text-align: center;
+  color: #c1cae8;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
 .Reach-us {
-  text-align: right;
   color: #c1cae8;
   margin-bottom: 30px;
   font-size: 20px;
@@ -1003,7 +993,7 @@ summary {
     margin-right: 10px;
   }
 }
-/* foooter end */
+
 /*timeline*/
 
 
@@ -3639,6 +3629,15 @@ summary {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  
+}
 .timeline {
   width: 80%;
   height: auto;
@@ -3746,8 +3745,8 @@ summary {
   width: 100vw;
   height: auto;
   margin: 10px;
-  margin-left: 5px;
-
+  position: relative;
+  left: 2vw;
 }
 
 .sponsor-img{
@@ -3776,7 +3775,7 @@ font-weight: 700;
 
   .sponsor-card{
       margin: 5px;
-      margin-left: -2px;
+      left: 8vw;
   }
   
   .sponsor-img{
@@ -3796,7 +3795,7 @@ font-weight: 700;
 @media screen and (max-width:900px) and (min-width:500px) {
   
   .sponsor-card{
-      margin-left: -15px;
+      left: 6vw;
   }
   .sponsor-img{
       height: 210px;
@@ -3871,7 +3870,7 @@ font-weight: 700;
 }
 
 .home {
-  height: 90vh;
+  height: 80vh;
   backdrop-filter: blur(10px);
 }
 
@@ -3887,7 +3886,7 @@ font-weight: 700;
   height: 70%;
   display: flex;
   justify-content: center;
-  top: 4rem;
+
   position: relative;
   align-items: center;
 }
@@ -3898,6 +3897,7 @@ font-weight: 700;
   font-size: 4.75rem;
   transform: scale(2);
   padding: 30px;
+  top: 3rem;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -4142,4 +4142,50 @@ font-weight: 700;
   height: 0;
   overflow: hidden;
   transition: all 1s;
+}
+
+#timeline h2{
+  font-size: 4rem;
+}
+
+#sponsors h2{
+  font-size: 4rem;
+}
+
+#faq{
+  font-size: 2rem;
+}
+
+.countdown{
+  position: relative;
+  top:2rem;
+}
+
+@media (max-width:700px) {
+  .countdown{
+    position: relative;
+    top:0;
+  }
+}
+
+@media (max-width:700px) {
+  .countdown{
+    position: relative;
+    top:0;
+  }
+}
+
+@media (max-width:400px) {
+  .countdown{
+    position: relative;
+    top:-5rem;
+  }
+}
+
+.footer{
+  
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 6%;
 }
