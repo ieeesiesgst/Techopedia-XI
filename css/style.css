@@ -115,6 +115,8 @@ nav #brand a:hover {
   z-index: 2;
   width: 30px;
   height: 30px;
+  font-size: 44px;
+  color: #03ffbb;
   cursor: pointer;
   float: right;
   transition: all 0.3s ease-out;
@@ -125,10 +127,11 @@ nav #brand a:hover {
 .close-btn {
   position: absolute;
   right: 16px;
+  font-size: 44px;
+  color: #03ffbb;
   font-weight: 300;
   z-index: 2;
   cursor: pointer;
-  top: -2px;
   line-height: 80px;
 }
 .mobile-nav.active {
@@ -317,7 +320,7 @@ nav #brand a:hover {
 .campus {
   width: 80%;
   margin: auto;
-  margin-top: 12rem !important;
+  margin-top: 8rem !important;
   text-align: center;
   padding-top: 50px;
 }
@@ -570,12 +573,8 @@ nav #brand a:hover {
   text-align: left;
 }
 
-#title {
-  font-size: 200%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: antiquewhite;
+#faq h2{
+  font-size: 4rem;
 }
 
 .img1 {
@@ -870,8 +869,6 @@ summary {
   margin-top: 30px;
   display: flex;
   text-align: center;
-  margin-left: 10%;
-  align-items: center;
 }
 .social-links li,
 .social-links li a {
@@ -915,9 +912,6 @@ summary {
   font-size: 15px;
   color: #535a71;
   text-align: center;
-}
-.social-links li img {
-  background-color: #000516;
 }
 .social-links img:hover {
   box-shadow: 0px 1px 100px 0px #fff;
@@ -3746,7 +3740,7 @@ summary {
   height: auto;
   margin: 10px;
   position: relative;
-  left: 2vw;
+  margin-left: 8%;
 }
 
 .sponsor-img{
@@ -3773,11 +3767,12 @@ font-weight: 700;
 
   }
 
+
   .sponsor-card{
-      margin: 5px;
-      left: 8vw;
+    margin: 5px;
+    left: 8vw;
   }
-  
+
   .sponsor-img{
       height: 145px;
       margin: 8px;
@@ -3795,7 +3790,7 @@ font-weight: 700;
 @media screen and (max-width:900px) and (min-width:500px) {
   
   .sponsor-card{
-      left: 6vw;
+    left: 6vw;
   }
   .sponsor-img{
       height: 210px;
