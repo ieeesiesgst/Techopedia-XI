@@ -115,8 +115,6 @@ nav #brand a:hover {
   z-index: 2;
   width: 30px;
   height: 30px;
-  font-size: 44px;
-  color: #03ffbb;
   cursor: pointer;
   float: right;
   transition: all 0.3s ease-out;
@@ -127,11 +125,10 @@ nav #brand a:hover {
 .close-btn {
   position: absolute;
   right: 16px;
-  font-size: 44px;
-  color: #03ffbb;
   font-weight: 300;
   z-index: 2;
   cursor: pointer;
+  top: -2px;
   line-height: 80px;
 }
 .mobile-nav.active {
@@ -320,9 +317,12 @@ nav #brand a:hover {
 .campus {
   width: 80%;
   margin: auto;
-  margin-top: 8rem !important;
+  margin-top: 3rem !important;
   text-align: center;
   padding-top: 50px;
+}
+#timeline{
+  margin-top: -2rem !important;
 }
 
 
@@ -426,6 +426,7 @@ nav #brand a:hover {
 .events h3{
   font-size: 4rem;
   margin-bottom: 3rem;
+  color: antiquewhite;
 }
 .btn-darks:hover {
   color: #02C793;
@@ -573,8 +574,14 @@ nav #brand a:hover {
   text-align: left;
 }
 
-#faq h2{
-  font-size: 4rem;
+#title {
+  font-size: 3.5rem;
+  font-family: poppins;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
 }
 
 .img1 {
@@ -699,6 +706,8 @@ summary {
   background-color: #101212;
   color: #fff;
   text-align: center;
+  position: relative;
+  top: -28vh;
 }
 
 /*  hover */
@@ -869,6 +878,8 @@ summary {
   margin-top: 30px;
   display: flex;
   text-align: center;
+  margin-left: 10%;
+  align-items: center;
 }
 .social-links li,
 .social-links li a {
@@ -912,6 +923,9 @@ summary {
   font-size: 15px;
   color: #535a71;
   text-align: center;
+}
+.social-links li img {
+  background-color: #000516;
 }
 .social-links img:hover {
   box-shadow: 0px 1px 100px 0px #fff;
@@ -3740,7 +3754,8 @@ summary {
   height: auto;
   margin: 10px;
   position: relative;
-  margin-left: 8%;
+  left: 2vw;
+  top: -28vh;
 }
 
 .sponsor-img{
@@ -3757,6 +3772,16 @@ font-size: 20px;
 font-weight: 700;
 }
 
+#em-sp{
+  position:relative;
+  top: -20vh !important;
+}
+
+#sec-em-sp{
+  display: inline;
+  position: relative;
+  top: -5vh;
+}
 /* for mobile screen */
 @media screen and (max-width:500px) {
    
@@ -3767,12 +3792,11 @@ font-weight: 700;
 
   }
 
-
   .sponsor-card{
-    margin: 5px;
-    left: 8vw;
+      margin: 5px;
+      left: 8vw;
   }
-
+  
   .sponsor-img{
       height: 145px;
       margin: 8px;
@@ -3790,7 +3814,7 @@ font-weight: 700;
 @media screen and (max-width:900px) and (min-width:500px) {
   
   .sponsor-card{
-    left: 6vw;
+      left: 6vw;
   }
   .sponsor-img{
       height: 210px;
@@ -4084,7 +4108,7 @@ font-weight: 700;
 
 
 .faq{
-  padding-top: 7rem;
+  padding-top: 4rem;
 }
 
 .faq .container{
@@ -4094,7 +4118,7 @@ font-weight: 700;
 .faq-wrapper{
   margin-bottom: 20px;
   padding: 15px 40px;
-  box-shadow: inset 0px 0px 0px 10px #23daab;
+  box-shadow: inset 0px 0px 8px 10px #23daab;
   position: relative;
 }
 
@@ -4149,6 +4173,8 @@ font-weight: 700;
 
 #faq{
   font-size: 2rem;
+  position: relative;
+  top: -25vh;
 }
 
 .countdown{
@@ -4183,4 +4209,5 @@ font-weight: 700;
     align-items: center;
     justify-content: center;
     padding: 0% 6%;
+    margin-top: -15rem;
 }
