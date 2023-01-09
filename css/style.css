@@ -115,20 +115,22 @@ nav #brand a:hover {
   z-index: 2;
   width: 30px;
   height: 30px;
+  font-size: 44px;
+  color: #03ffbb;
   cursor: pointer;
   float: right;
   transition: all 0.3s ease-out;
   visibility: hidden;
   opacity: 0;
 }
-
 .close-btn {
   position: absolute;
   right: 16px;
+  font-size: 44px;
+  color: #03ffbb;
   font-weight: 300;
   z-index: 2;
   cursor: pointer;
-  top: -2px;
   line-height: 80px;
 }
 .mobile-nav.active {
@@ -311,9 +313,9 @@ nav #brand a:hover {
 }
 
 .about{
-
  height: 600%;
-  }
+}
+
 .campus {
   width: 80%;
   margin: auto;
@@ -574,11 +576,10 @@ nav #brand a:hover {
   text-align: left;
 }
 
-#title {
+#faq h2{
   font-size: 3.5rem;
   font-family: poppins;
   font-weight: 700;
-  display: flex;
   justify-content: center;
   align-items: center;
   color: antiquewhite;
@@ -878,7 +879,7 @@ summary {
   margin-top: 30px;
   display: flex;
   text-align: center;
-  margin-left: 10%;
+
   align-items: center;
 }
 .social-links li,
@@ -923,9 +924,6 @@ summary {
   font-size: 15px;
   color: #535a71;
   text-align: center;
-}
-.social-links li img {
-  background-color: #000516;
 }
 .social-links img:hover {
   box-shadow: 0px 1px 100px 0px #fff;
@@ -3673,7 +3671,7 @@ summary {
 .timeline-content h1 {
   font-weight: 500;
   font-size: 25px;
-  line-height: 30px;
+  line-height: 30px !important;
   margin-bottom: 10px;
 }
 .timeline-content p {
@@ -3812,10 +3810,6 @@ font-weight: 700;
 
 /* for tablet */
 @media screen and (max-width:900px) and (min-width:500px) {
-  
-  .sponsor-card{
-      left: 6vw;
-  }
   .sponsor-img{
       height: 210px;
       margin: 10px;
