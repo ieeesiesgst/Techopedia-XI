@@ -492,14 +492,14 @@ nav #brand a:hover {
 
 .layer-left .button{
   right: 5%;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: absolute;
   background-color: #fff ;
 }
 
 .layer-right .button{
   left: 5%;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: absolute;
   background-color: #fff ;
 }
