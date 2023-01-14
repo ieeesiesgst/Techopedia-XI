@@ -623,7 +623,7 @@
   }
   .layer-right .button{
     left: 5%;
-    bottom: 2rem;
+    bottom: 23px;
     font-size: .4rem;
 
   }
@@ -746,4 +746,11 @@
         .menu{
           width: 60%;
         }
+      }
+
+      @media screen and (min-width:600px) and (max-width:1000px) {
+        #bombay1{
+          margin-left: 160px;
+        }
+
       }

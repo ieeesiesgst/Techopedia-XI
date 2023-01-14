@@ -4624,3 +4624,9 @@ header::after {
 #bombay1{
   margin-left: 50px;
  }
+
+ .timeline ul  :hover{
+  background-color:#000 ;
+  box-shadow:none ;
+  transition: 0.5s;
+ }
