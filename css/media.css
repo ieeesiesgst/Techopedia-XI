@@ -18,7 +18,7 @@
     font-size: 3.2rem;
   }
   .layer-left p{
-    font-size: 1.5rem;
+    font-size: 1.53rem;
   }
   .layer-right h1{
     font-size: 3.2rem;
@@ -33,13 +33,28 @@
     font-size: 3.2rem;
   }
   .layer-left p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .layer-right h1{
     font-size: 3.2rem;
   }
   .layer-right p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:1350px){
+  .layer-left h1{
+    font-size: 3.2rem;
+  }
+  .layer-left p{
+    font-size: 1.4109rem;
+  }
+  .layer-right h1{
+    font-size: 3.2rem;
+  }
+  .layer-right p{
+    font-size: 1.4rem;
   }
 }
 @media (max-width:1250px){  
@@ -83,7 +98,7 @@
     font-size: 3rem;
   }
   .layer-left p{
-    font-size: 1.1rem;
+    font-size: 1.155rem;
   }
   .layer-left .button{
     right: 0%;
@@ -93,7 +108,7 @@
     font-size: 3rem;
   }
   .layer-right p{
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
   .layer-right .button{
     left: 0%;
@@ -149,6 +164,26 @@
   }
   .explore a{
     margin: 0 3%
+  }
+  .layer-left h1{
+    font-size: 2.2rem;
+  }
+  .layer-left p{
+    font-size: 1rem;
+  }
+  .layer-left .button{
+    right: 0%;
+    font-size: 0.65rem;
+  }
+  .layer-right h1{
+    font-size: 2.2rem;
+  }
+  .layer-right p{
+    font-size: 1rem;
+  }
+  .layer-right .button{
+    left: 0%;
+    font-size: 0.65rem;
   }
 }
 @media (max-width:950px){
@@ -218,7 +253,7 @@
     font-size: 2.2rem;
   }
   .layer-left p{
-    font-size: .75rem;
+    font-size: .767rem;
   }
   .layer-left .button{
     right: 0%;
