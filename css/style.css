@@ -4620,3 +4620,7 @@ header::after {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+#bombay1{
+  margin-left: 50px;
+ }
